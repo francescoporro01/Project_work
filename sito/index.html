@@ -22,54 +22,35 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<!-- Il corpo del documento. La classe 'antialiased' migliora la resa del testo rendendolo più liscio -->
+<!-- La classe 'antialiased' migliora la resa del testo rendendolo più liscio -->
 <body class="antialiased">
-
-    <!-- Sezione Header: l'intestazione della pagina -->
-    <!-- 'bg-white' imposta lo sfondo bianco. 'shadow-sm' aggiunge una leggera ombra per dare profondità -->
+    <!-- Sezione Header: l'intestazione della pagina. 'bg-white' imposta lo sfondo bianco. 'shadow-sm' aggiunge una leggera ombra per dare profondità -->
     <header class="bg-white shadow-sm">
-        <!-- Contenitore principale: 'container' imposta una larghezza massima, 'mx-auto' lo centra orizzontalmente -->
-        <!-- 'px-6' aggiunge padding orizzontale, 'py-4' aggiunge padding verticale -->
+        <!-- Contenitore principale: 'container' imposta una larghezza massima, 'mx-auto' lo centra orizzontalmente 'px-6' aggiunge padding orizzontale, 'py-4' aggiunge padding verticale -->
         <div class="container mx-auto px-6 py-4">
-            <!-- Titolo principale dell'header. 'text-2xl' imposta la dimensione del testo -->
-            <!-- 'font-bold' imposta il grassetto. 'text-eco-green' applica il colore verde personalizzato -->
+            <!-- Titolo principale dell'header. 'text-2xl' imposta la dimensione del testo. 'font-bold' imposta il grassetto. 'text-eco-green' applica il colore verde personalizzato -->
             <h1 class="text-2xl font-bold text-gray-600">Project work Francesco Porro 0312400589</h1>
         </div>
     </header>
-
-    <!-- Contenuto principale della pagina -->
-    <!-- 'container', 'mx-auto', 'px-6' per la centratura e la spaziatura -->
-    <!-- 'py-12' e 'md:py-16' definiscono il padding verticale per mobile e per schermi medi/grandi -->
+    <!-- 'container', 'mx-auto', 'px-6' per la centratura e la spaziatura 'py-12' e 'md:py-16' definiscono il padding verticale per mobile e per schermi medi/grandi -->
     <main class="container mx-auto px-6 py-12 md:py-16">
-
-        <!-- Sezione Hero: la prima sezione di impatto visivo -->
-        <!-- 'text-center' centra il testo. 'mb-16' e 'md:mb-20' aggiungono margine inferiore per mobile e schermi più grandi -->
+        <!-- Sezione Hero: la prima sezione di impatto visivo. 'text-center' centra il testo. 'mb-16' e 'md:mb-20' aggiungono margine inferiore per mobile e schermi più grandi -->
         <section id="hero" class="text-center mb-16 md:mb-20">
-            <!-- Titolo della sezione. 'text-4xl' e 'md:text-5xl' per la dimensione del font responsive -->
-            <!-- 'font-bold' per il grassetto, 'text-eco-green' per il colore, 'mb-4' per il margine inferiore -->
+            <!-- Titolo della sezione. 'text-4xl' e 'md:text-5xl' per la dimensione del font responsive 'font-bold' per il grassetto, 'text-eco-green' per il colore, 'mb-4' per il margine inferiore -->
             <h2 class="text-4xl md:text-5xl font-bold text-eco-green mb-4">Rapporti di Sostenibilità Ferrero S.p.A.</h2>
         </section>
-
         <!-- Sezione dedicata al report più recente -->
-        <!-- 'bg-white', 'rounded-lg', 'shadow-lg' per lo stile del contenitore (sfondo, angoli arrotondati, ombra marcata) -->
-        <!-- 'p-8' e 'md:p-12' per il padding interno responsive. 'mb-16' e 'md:mb-20' per il margine inferiore -->
-        <!-- 'flex', 'flex-col', 'md:flex-row' per un layout flessibile (colonna su mobile, riga su desktop) -->
-        <!-- 'items-center' per centrare verticalmente. 'gap-8' e 'md:gap-12' per lo spazio tra gli elementi flex -->
+        <!-- 'bg-white', 'rounded-lg', 'shadow-lg' per lo stile del contenitore (sfondo, angoli arrotondati, ombra marcata) 'p-8' e 'md:p-12' per il padding interno responsive. 'mb-16' e 'md:mb-20' per il margine inferiore -->
+        <!-- 'flex', 'flex-col', 'md:flex-row' per un layout flessibile (colonna su mobile, riga su desktop) 'items-center' per centrare verticalmente. 'gap-8' e 'md:gap-12' per lo spazio tra gli elementi flex -->
         <section id="latest-report" class="bg-white rounded-lg shadow-lg p-8 md:p-12 mb-16 md:mb-20 flex flex-col md:flex-row items-center gap-8 md:gap-12">
-            <!-- Contenitore per l'immagine di copertina -->
-            <!-- 'md:w-1/3' imposta la larghezza a 1/3 su schermi medi/grandi. 'flex-shrink-0' impedisce al contenitore di restringersi -->
+            <!-- Contenitore per l'immagine di copertina 'md:w-1/3' imposta la larghezza a 1/3 su schermi medi/grandi. 'flex-shrink-0' impedisce al contenitore di restringersi -->
             <div class="md:w-1/4 flex-shrink-0">
-                <!-- Immagine di placeholder. 'alt' fornisce testo alternativo per l'accessibilità -->
-                <!-- 'rounded-md' e 'shadow-md' per lo stile dell'immagine. 'w-full' e 'h-auto' per la responsività -->
+                <!-- Immagine di placeholder. 'alt' fornisce testo alternativo per l'accessibilità 'rounded-md' e 'shadow-md' per lo stile dell'immagine. 'w-full' e 'h-auto' per la responsività -->
                 <!-- 'object-cover' assicura che l'immagine copra lo spazio senza distorsioni -->
-                <img src="new_pexels-mikhail-nilov-7676100.webp" alt="Copertina del Report di Sostenibilità 2024" class="rounded-md shadow-md w-full h-auto object-cover">
+                <img src="new_pexels-mikhail-nilov-7676100.webp" alt="Report di Sostenibilità 2024" class="rounded-md shadow-md w-full h-auto object-cover">
             </div>
-            <!-- Contenitore per il testo del report più recente -->
-            <!-- 'md:w-2/3' imposta la larghezza a 2/3. 'text-center' e 'md:text-left' per l'allineamento del testo responsive -->
+            <!-- Contenitore per il testo del report più recente. 'md:w-2/3' imposta la larghezza a 2/3. 'text-center' e 'md:text-left' per l'allineamento del testo responsive -->
             <div class="md:w-3/4 text-center md:text-left">
-                <!-- Etichetta per il report. 'text-sm' per testo piccolo, 'font-bold' e 'uppercase' per lo stile -->
-                <!-- 'text-eco-accent' per il colore d'accento blu -->
-                <!-- <span class="text-sm font-bold uppercase text-eco-accent">REPORT DI SOSTENIBILITA' FERRERO S.R.L. ANNO 2024</span> -->
                 <!-- Titolo del report. 'text-3xl' e 'md:text-4xl' per la dimensione, 'my-3' per il margine verticale -->
                 <h3 class="text-3xl md:text-4xl font-bold text-eco-green my-3">Report di Sostenibilità 2024</h3>
                 <!-- Descrizione del report. 'text-gray-600' per il colore, 'mb-6' per il margine inferiore -->
@@ -80,7 +61,7 @@
                 <!-- Link per il download del PDF -->
                 <!-- 'inline-block' per renderlo un blocco ma in linea. Stili per sfondo, colore testo, padding, angoli arrotondati e dimensione del font -->
                 <!-- 'hover:bg-eco-accent-hover' per il cambio colore al passaggio del mouse. 'transition-colors' e 'duration-300' per l'animazione -->
-                <!-- 'transform' e 'hover:scale-105' per un leggero effetto di ingrandimento al passaggio del mouse -->
+                <!-- 'transform' e 'hover:scale-105' per un leggero effetto di ingrandimento al passaggio del mouse. download target '_blank' per permettere il download del PDF in una nuova pagina-->
                 <a href="Report_Ferrero_2024.pdf" class="inline-block bg-eco-accent text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-eco-accent-hover transition-colors duration-300 transform hover:scale-105" download target="_blank">
                     Scarica il PDF
                 </a>
@@ -94,17 +75,13 @@
             <p class="text-gray-600 mb-6 font-bold text-center mb-16">
                 Scopri come il nostro percorso negli anni passati ci ha aiutato ad arrivare dell'anno corrente, tra obiettivi raggiunti ed ambizioni per il futuro  
             </p>
-            <!-- Griglia per i report. 'grid' attiva il layout a griglia. 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' per il numero di colonne responsive -->
-            <!-- 'gap-8' e 'md:gap-10' per lo spazio tra le celle della griglia -->
+            <!-- Griglia per i report. 'grid' attiva il layout a griglia. 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' per il numero di colonne responsive 'gap-8' e 'md:gap-10' per lo spazio tra le celle della griglia -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 mt-16">
-                
                 <!-- Card del Report 2023 -->
-                <!-- Stili per la card: sfondo, angoli arrotondati, ombra, overflow nascosto, layout flex a colonna -->
-                <!-- 'transform', 'hover:-translate-y-2', 'transition-transform', 'duration-300' per un'animazione di sollevamento al passaggio del mouse -->
+                <!-- Stili per la card: sfondo, angoli arrotondati, ombra, overflow nascosto, layout flex a colonna 'transform', 'hover:-translate-y-2', 'transition-transform', 'duration-300' per un'animazione di sollevamento al passaggio del mouse -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300">
-                    <!-- Immagine di copertina del report -->
-                    <!-- 'w-full' per larghezza piena, 'h-64' per altezza fissa, 'object-cover' per l'adattamento dell'immagine -->
-                    <img src="https://placehold.co/600x800/007baa/ffffff?text=Report+2023" alt="Copertina Report 2023" class="w-full h-64 object-cover">
+                    <!-- Immagine di copertina del report 'w-full' per larghezza piena, 'h-64' per altezza fissa, 'object-cover' per l'adattamento dell'immagine -->
+                    <img src="https://placehold.co/600x800/007baa/ffffff?text=Report+2023" alt="Report 2023" class="w-full h-64 object-cover">
                     <!-- Contenitore del testo della card -->
                     <!-- 'p-6' per il padding interno. 'flex', 'flex-col', 'flex-grow' per far sì che questo contenitore occupi lo spazio rimanente -->
                     <div class="p-6 flex flex-col flex-grow">
@@ -114,7 +91,7 @@
                         <!-- 'mt-auto' spinge questo elemento in fondo al contenitore flex -->
                         <div class="mt-auto">
                             <!-- Link per il download -->
-                            <!-- 'inline-block', 'w-full', 'text-center' per lo stile del pulsante. Stili per colore, padding, angoli arrotondati e transizioni -->
+                            <!-- 'inline-block', 'w-full', 'text-center' per lo stile del pulsante. Stili per colore, padding, angoli arrotondati e transizioni anche qui download target '_blank' per permettere il download del PDF in una nuova pagina -->
                             <a href="Report_Ferrero_2023.pdf" class="inline-block w-full text-center bg-gray-200 text-eco-text font-bold py-2 px-4 rounded-full hover:bg-gray-300 transition-colors duration-300" download target="_blank">
                                 Scarica PDF
                             </a>
@@ -124,7 +101,7 @@
 
                 <!-- Card del Report 2022 (struttura e classi identiche al 2023) -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300">
-                    <img src="https://placehold.co/600x800/007baa/ffffff?text=Report+2022" alt="Copertina Report 2022" class="w-full h-64 object-cover">
+                    <img src="https://placehold.co/600x800/007baa/ffffff?text=Report+2022" alt="Report 2022" class="w-full h-64 object-cover">
                     <div class="p-6 flex flex-col flex-grow">
                         <h3 class="text-xl font-bold text-eco-text mb-3">Report di Sostenibilità 2022</h3>
                         <div class="mt-auto">
@@ -137,7 +114,7 @@
 
                 <!-- Card del Report 2021 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300">
-                    <img src="https://placehold.co/600x800/007baa/ffffff?text=Report+2021" alt="Copertina Report 2021" class="w-full h-64 object-cover">
+                    <img src="https://placehold.co/600x800/007baa/ffffff?text=Report+2021" alt="Report 2021" class="w-full h-64 object-cover">
                     <div class="p-6 flex flex-col flex-grow">
                         <h3 class="text-xl font-bold text-eco-text mb-3">Report di Sostenibilità 2021</h3>
                         <div class="mt-auto">
@@ -150,7 +127,7 @@
                 
                 <!-- Card del Report 2020 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300">
-                    <img src="https://placehold.co/600x800/007baa/ffffff?text=Report+2020" alt="Copertina Report 2023" class="w-full h-64 object-cover">
+                    <img src="https://placehold.co/600x800/007baa/ffffff?text=Report+2020" alt="Report 2020" class="w-full h-64 object-cover">
                     <div class="p-6 flex flex-col flex-grow">
                         <h3 class="text-xl font-bold text-eco-text mb-3">Report di Sostenibilità 2020</h3>
                         <div class="mt-auto">
@@ -161,8 +138,9 @@
                     </div>
                 </div>
 
+                <!-- Card del Report 2019 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300">
-                    <img src="https://placehold.co/600x800/007baa/ffffff?text=Report+2019" alt="Copertina Report 2022" class="w-full h-64 object-cover">
+                    <img src="https://placehold.co/600x800/007baa/ffffff?text=Report+2019" alt="Copertina Report 2019" class="w-full h-64 object-cover">
                     <div class="p-6 flex flex-col flex-grow">
                         <h3 class="text-xl font-bold text-eco-text mb-3">Report di Sostenibilità 2019</h3>
                         <div class="mt-auto">
@@ -173,8 +151,9 @@
                     </div>
                 </div>
 
+                <!-- Card del Report 2018 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300">
-                    <img src="https://placehold.co/600x800/007baa/ffffff?text=Report+2018" alt="Copertina Report 2021" class="w-full h-64 object-cover">
+                    <img src="https://placehold.co/600x800/007baa/ffffff?text=Report+2018" alt="Report 2018" class="w-full h-64 object-cover">
                     <div class="p-6 flex flex-col flex-grow">
                         <h3 class="text-xl font-bold text-eco-text mb-3">Report di Sostenibilità 2018</h3>
                         <div class="mt-auto">
